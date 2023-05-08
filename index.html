@@ -3,25 +3,58 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sport Score Tracker</title>
   <link rel='stylesheet' href='./assets/css/homepage.css' />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-</head> 
+  <title>Sport Standings Tracker</title>
+</head>
 
 <body>
-    <header> 
-      <nav>
-        <div class="nav-wrapper">
-          <a href="./index.html" class="brand-logo center">Sport Score Tracker</a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="./football.html">Football</a></li>
-            <li><a href="./basketball.html">Basketball</a></li>
-            <li><a href="./soccer.html">Soccer</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="./index.html" class="brand-logo center">Sport Standings Tracker</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="./football.html">Football</a></li>
+          <li><a href="./basketball.html">Basketball</a></li>
+          <li><a href="./soccer.html">Soccer</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="container" class="container">
+    <h1>Select a Sport</h1>
+    <div id="sportButtons">
+      <button id="btnSoccer">Soccer</button>
+      <button id="btnBasketball">Basketball</button>
+      <button id="btnMotoring">Motoring</button>
+    </div>
+  </div>
+
+  <div id="additionalButtonsContainer" class="hidden">
+    <div id="soccerButtons" class="hidden">
+      <button>La Liga</button>
+      <button>Serie A</button>
+      <button>Premier League</button>
+    </div>
+
+    <div id="basketballButtons" class="hidden">
+      <button>NBA</button>
+      <button>EuroLeague</button>
+    </div>
+
+    <div id="motoringButtons" class="hidden">
+      <button>F1</button>
+    </div>
+  </div>
+  <footer>
+    Powered by The Zucc
+  </footer>
+
+  <script src="../Proyect-1/assets/js/script.js"></script>
+
 </body>
 
 </html>
