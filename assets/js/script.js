@@ -23,6 +23,7 @@ function showSoccer() {
 //     additionalButtonsContainer.classList.toggle("hidden");
 // }
 
+
 //This function is toggling the visibility of certain elements on a webpage related to motoring.
 
 function showMotoring() {
@@ -36,14 +37,15 @@ function showMotoring() {
     additionalButtonsContainer.classList.toggle("hidden");
 }
 
+
 // Buttons for Soccer and Basketball
 var buttonSoccer = document.getElementById("btnSoccer");
 // var buttonBasketball = document.getElementById("btnBasketball");
 var buttonMotoring = document.getElementById("btnMotoring");
 
-btnSoccer.addEventListener("click", showSoccer);
+// btnSoccer.addEventListener("click", showSoccer);
 // btnBasketball.addEventListener("click", showBasketball);
-btnMotoring.addEventListener("click", showMotoring)
+// btnMotoring.addEventListener("click", showMotoring)
 
 
 
