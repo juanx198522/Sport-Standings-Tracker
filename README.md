@@ -2,7 +2,7 @@
 Sport Standings Tracker
 
 ## Description
-This is an application that is providing live life scores and standings from Soccer and Motoring.
+This is an application that is providing live scores and standings from Soccer and Motoring.
 
 ## User Story
 
