@@ -9,16 +9,21 @@ function runPosition () {
         for(var i=0; i<data.MRData.StandingsTable.StandingsLists.length; i++){
             console.log(data.MRData.StandingsTable.StandingsLists[i])
             var target= data.MRData.StandingsTable.StandingsLists[i]
-            var h3 = document.createElement("h3")
-            h3.textContent = target.season + " - " + target.round;
-            document.getElementById("racing-positions").appendChild(h3)
+            
             for(var j=0; j<target.DriverStandings.length; j++){
                 var driver = target.DriverStandings[j]
                 console.log (driver)
                 console.log (driver.Driver.familyName)
-                var h5 = document.createElement("h5")
-                h5.textContent = target.season + " - " + driver.Driver.familyName
-                document.getElementById("racing-positions").appendChild(h5)
+                
+                var row = document.createElement("tr")
+                var positions =  document.createElement("th")
+                var teams = document.createElement("td")
+                teams.textContent = target.season + " - " + driver.Driver.familyName
+                positions.textContent = j+1
+                row.appendChild(positions)
+                row.appendChild(teams)
+                document.getElementById("body").appendChild(row)
+
             }
 
         }
