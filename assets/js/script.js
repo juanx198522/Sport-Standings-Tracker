@@ -43,9 +43,9 @@ var buttonSoccer = document.getElementById("btnSoccer");
 // var buttonBasketball = document.getElementById("btnBasketball");
 var buttonMotoring = document.getElementById("btnMotoring");
 
-// btnSoccer.addEventListener("click", showSoccer);
-// btnBasketball.addEventListener("click", showBasketball);
-// btnMotoring.addEventListener("click", showMotoring)
+btnSoccer.addEventListener("click", showSoccer);
+btnBasketball.addEventListener("click", showBasketball);
+btnMotoring.addEventListener("click", showMotoring)
 
 
 
