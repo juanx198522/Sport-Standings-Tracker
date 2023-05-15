@@ -48,6 +48,9 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
+    position: fixed;
+    width:100% ;
+    bottom: 0;
 }
 
 /* button{
