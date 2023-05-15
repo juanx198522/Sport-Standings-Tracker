@@ -1,0 +1,44 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-wrapper {
+    background-color: #0D2B4E;
+}
+
+li {
+    background-color: #0D2B4E;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1570498839593-e565b39455fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.containerMain {
+    margin: 75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table {
+    width: 100%;
+    max-width: 800px;
+    opacity: 0.8;
+}
+
+.containerLeague {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+    margin: 10px;
+}
