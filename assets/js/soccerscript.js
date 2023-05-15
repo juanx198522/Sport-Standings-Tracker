@@ -1207,8 +1207,8 @@ callback(premData);
 function getSoccerData() {
     premiereAPIfetch(function(data) {
     console.log(data)
+    console.log()
     })
 }
-getSoccerData()
 
-document.getElementById('btnSoccer').addEventListener('click', getSoccerData)
+getSoccerData()
