@@ -1187,7 +1187,6 @@ const premData= {
         ]
     }
 
-
 function premiereAPIfetch (callback) {
 //    // fetch('https://api.football-data.org/v4/competitions/PL/standings', {
 //    // headers:{
@@ -1202,6 +1201,21 @@ function premiereAPIfetch (callback) {
 //     callback(data)
 //   })
 callback(premData);
+console.log(premData);
+for(i=0; i< premData.standings[0].table.length; i++){
+    var teamPosition = premData.standings[0].table[i].position + "";
+var teamName = premData.standings[0].table[i].team.name;  
+console.log(teamPosition + teamName); 
+const li = document.createElement('li')
+li.style.display = 'flex'
+const p1 = document.createElement('th')
+p1.textContent = teamPosition  
+const p2 = document.createElement('td')
+p2.textContent = teamName
+li.append(p1, p2)
+document.getElementById("r").appendChild(li); 
+console.log(document.getElementById("r"))
+}
 }
 
 function getSoccerData() {
@@ -1211,4 +1225,34 @@ function getSoccerData() {
 }
 getSoccerData()
 
-document.getElementById('btnSoccer').addEventListener('click', getSoccerData)
+// function runPosition () {
+//     fetch ("http://ergast.com/api/f1/2023/5/driverStandings.json",{
+//     }).then(function(response){
+//         console.log (response)
+//         return response.json()
+//     }).then (function(data){
+//         console.log(data)
+//         for(var i=0; i<data.MRData.StandingsTable.StandingsLists.length; i++){
+//             console.log(data.MRData.StandingsTable.StandingsLists[i])
+//             var target= data.MRData.StandingsTable.StandingsLists[i]
+            
+//             for(var j=0; j<target.DriverStandings.length; j++){
+//                 var driver = target.DriverStandings[j]
+//                 console.log (driver)
+//                 console.log (driver.Driver.familyName)
+                
+//                 var row = document.createElement("tr")
+//                 var positions =  document.createElement("th")
+//                 var teams = document.createElement("td")
+//                 teams.textContent = target.season + " - " + driver.Driver.familyName
+//                 positions.textContent = j+1
+//                 row.appendChild(positions)
+//                 row.appendChild(teams)
+//                 document.getElementById("body").appendChild(row)
+
+//             }
+
+//         }
+//     })
+//     }
+// runPosition()
