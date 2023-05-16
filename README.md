@@ -23,5 +23,5 @@ THAN I am opening a webpage with the "Formula 1" updated results.
 ![The "Sport Standing Traker dispaly two buttons to choose between Soccer or Motoring".](./assets/Images/Screenshot%20main.png)
 
 ## Deploying
-Before you runing the App, you need to go to https://cors-anywhere.herokuapp.com/corsdemo and clik on "request temporary access.
+Before you running the App, you need to go to https://cors-anywhere.herokuapp.com/corsdemo and clik on "request temporary access.
 https://juanx198522.github.io/Sport-Standings-Tracker/#
