@@ -1,5 +1,5 @@
 function runPosition() {
-    fetch("http://ergast.com/api/f1/2023/5/driverStandings.json", {
+    fetch("https://ergast.com/api/f1/2023/5/driverStandings.json", {
     }).then(function (response) {
         console.log(response);
         return response.json();
