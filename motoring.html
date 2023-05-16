@@ -13,41 +13,38 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/motoring.css">
-  <title>Motoring</title>
+  <title>F1 Standings</title>
 </head>
 
-<header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
-    <div class="container-fluid">
-      <div class="d-flex justify-content-center align-items-center">
-        <h1 id="soccerNav" class="navbar-brand">Motoring</h1>
-       
-      </div>
-      <div class="containerMain">
-        <button id="saveButtonMotoring" class="btn btn-primary">Add to favorite</button>
 
-      </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
 
 <body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/Images/racecar2.png" alt="Logo" width="30" height="24"
+            class="d-inline-block align-text-top"></a>
+            <a>F1</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <div class="containerMain">
     <table class="table table-dark table-striped" id="table">
       <thead>
         <tr>
           <th scope="row">
             <div class="containerLeague">
-              <h2>F1</h2>
-              <img src="https://racer.com/wp-content/uploads/sites/85/2017/11/f1_logo-2.jpg?w=660" alt="Logo" width="30"
-                height="24" class="logo">
+              <img id="f1logo" src="./assets/Images/f1logo.png" alt="Logo" class="logo">
             </div>
           </th>
           <td></td>
@@ -56,7 +53,8 @@
           <h3>Position</h3>
         </th>
         <th scope="col">
-          <h3>Driver</h3>
+
+          <h3>Name</h3>
         </th>
         </tr>
       </thead>
