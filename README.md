@@ -10,15 +10,15 @@ I want to access Premier League match results and Formula 1 race,
 SO I can see the position of my favorite team and pilot.
 
 ## Acceptance Criteria
-WHEN I click on the "Soccer" butoton
+WHEN I click on the "Soccer" button
 THAN I am opening a webpage with the "Premier League" updated matches results.
-WHEN I click on the "Motoring" butoton
+WHEN I click on the "Motoring" button
 THAN I am opening a webpage with the "Formula 1" updated results.
 
 ## Technologies and tools used in this porject
 HTML
 CSS framework 
-Tailwind and Claudfare
+Claudfare
 Server Side API
 
 ## Mock-Up
