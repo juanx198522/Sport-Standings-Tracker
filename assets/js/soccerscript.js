@@ -1190,7 +1190,7 @@ const premData = {
 function premiereAPIfetch(callback) {
     fetch('https://api.football-data.org/v4/competitions/PL/standings', {
     headers:{
-    'X-Auth-Token':'b30eaa1f5ce04cbca485f06e5662929c'
+    'X-Auth-Token':'6774a95b5de8430fad3931c7de73c2b1'
     },
     }).then(function (response){
         console.log (response)
