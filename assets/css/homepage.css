@@ -12,6 +12,9 @@
 
 body {
     background-image: url('https://images.unsplash.com/photo-1600529533338-595b6acc327d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2344&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {

@@ -1190,7 +1190,7 @@ const premData = {
 function premiereAPIfetch(callback) {
     fetch('https://api.football-data.org/v4/competitions/PL/standings', {
     headers:{
-    'X-Auth-Token':'b30eaa1f5ce04cbca485f06e5662929c'
+    'X-Auth-Token':'6774a95b5de8430fad3931c7de73c2b1'
     },
     }).then(function (response){
         console.log (response)
@@ -1199,29 +1199,26 @@ function premiereAPIfetch(callback) {
     console.log(data) 
     callback(data)
     })
+}
+    function displayPremierLeagueStandings(data) {
+        var standingsData = data.standings[0].table;
+        
+        for (var i = 0; i < standingsData.length; i++) {
+          var teamPosition = standingsData[i].position + "";
+          var teamName = standingsData[i].team.name;
+          console.log(teamPosition + teamName);
     
-    function displayPremierLeagueStandings() {
-        premiereAPIfetch(function(data) {
-          var standingsData = data.standings[0].table;
-      
-          for (var i = 0; i < standingsData.length; i++) {
-            var teamPosition = standingsData[i].position + "";
-            var teamName = standingsData[i].team.name;
-            console.log(teamPosition + teamName);
-      
-            const row = document.createElement('tr');
-            const p1 = document.createElement('th');
-            p1.textContent = teamPosition;
-            const p2 = document.createElement('td');
-            p2.textContent = teamName;
-            row.appendChild(p1);
-            row.appendChild(p2);
-            document.getElementById("body").appendChild(row);
-            console.log(document.getElementById("li"));
-          }
-        });
+          const row = document.createElement('tr');
+          const p1 = document.createElement('th');
+          p1.textContent = teamPosition;
+          const p2 = document.createElement('td');
+          p2.textContent = teamName;
+          row.appendChild(p1);
+          row.appendChild(p2);
+          document.getElementById("body").appendChild(row);
+          console.log(document.getElementById("li"));
+        }
       }
       
      
-      displayPremierLeagueStandings();
-}
+premiereAPIfetch(displayPremierLeagueStandings);

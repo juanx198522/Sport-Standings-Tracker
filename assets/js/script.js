@@ -16,5 +16,3 @@ function showMotoring() {
 btnSoccer.addEventListener("click", showSoccer);
 btnMotoring.addEventListener("click", showMotoring)
 
-
-
