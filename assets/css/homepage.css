@@ -6,9 +6,9 @@
     background-color: #0D2B4E;
 }
 
-li {
+/* li {
     background-color: #0D2B4E;
-}
+} */
 
 body {
     background-image: url('https://images.unsplash.com/photo-1600529533338-595b6acc327d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2344&q=80');
@@ -53,20 +53,41 @@ footer {
     bottom: 0;
 }
 
-/* button{
+.para{
+    font-weight: bold;
+    width: 50vh;
+    background-color: #333;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.brand-logo{
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+button{
     border: 1px solid #000;
     display: center;
-    color: black;
-    background-color: beige;
-    width:90px;
+    color: white;
+    background-color: #333;
+    width:215px;
     text-align: center;
     padding: 10px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 50px;
     opacity: 80%;
 }
 
 button:hover{
     opacity: 100%;
     cursor: pointer;
-} */
+}
