@@ -15,6 +15,7 @@ function premiereAPIfetch(callback) {
 function displayPremierLeagueStandings(data) {
     var standingsData = data.standings[0].table;
 
+
     for (var i = 0; i < standingsData.length; i++) {
         var teamPosition = standingsData[i].position + "";
         var teamName = standingsData[i].team.name;
@@ -34,3 +35,7 @@ function displayPremierLeagueStandings(data) {
 
 
 premiereAPIfetch(displayPremierLeagueStandings);
+
+    document.getElementById('saveButton').addEventListener('click', function() {
+      localStorage.setItem('savedPage', document.documentElement.outerHTML);
+    });
