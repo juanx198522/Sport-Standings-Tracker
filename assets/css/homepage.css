@@ -24,10 +24,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 75vh;
+
+
 }
 
 .container button {
     margin-bottom: 10px;
+    
 }
 
 .hidden {
