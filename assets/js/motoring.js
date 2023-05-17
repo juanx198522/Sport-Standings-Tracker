@@ -4,7 +4,7 @@ function runPosition() {
         console.log(response);
         return response.json();
     }).then(function (data) {
-        localStorage.setItem("driverStandings", JSON.stringify(data));
+        
         console.log(data);
         for (var i = 0; i < data.MRData.StandingsTable.StandingsLists.length; i++) {
             console.log(data.MRData.StandingsTable.StandingsLists[i]);
@@ -28,5 +28,6 @@ function runPosition() {
 runPosition()
 
 document.getElementById('saveButtonMotoring').addEventListener('click', function() {
-    localStorage.setItem('savedPage', document.documentElement.outerHTML);
-  });
+        
+    localStorage.setItem("favorites","motoring");
+});

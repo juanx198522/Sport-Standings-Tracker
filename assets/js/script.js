@@ -16,13 +16,15 @@ function showMotoring() {
 btnSoccer.addEventListener("click", showSoccer);
 btnMotoring.addEventListener("click", showMotoring)
 
-    document.getElementById('loadButton').addEventListener('click', function() {
-      var savedPage = localStorage.getItem('savedPage');
-      if (savedPage) {
-        document.open();
-        document.write(savedPage);
-        document.close();
-      } else {
-        alert('No saved page found in local storage.');
-      }
+    document.getElementById('favoriteButton').addEventListener('click', function() {
+      
+      var favorite = localStorage.getItem ("favorites")
+  if (favorite=="soccer"){
+    showSoccer()
+  }else if (favorite=="motoring"){
+    showMotoring()
+  }
+      
+
+      
     });

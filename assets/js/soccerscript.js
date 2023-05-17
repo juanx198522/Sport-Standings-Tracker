@@ -37,5 +37,6 @@ function displayPremierLeagueStandings(data) {
 premiereAPIfetch(displayPremierLeagueStandings);
 
     document.getElementById('saveButtonSoccer').addEventListener('click', function() {
-      localStorage.setItem('savedPage', document.documentElement.outerHTML);
+        
+        localStorage.setItem("favorites","soccer");
     });
