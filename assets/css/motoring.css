@@ -13,7 +13,6 @@
 
    .containerMain {
        margin: 75px;
-
        display: flex;
        justify-content: center;
        align-items: center;
@@ -41,10 +40,9 @@
    a{
     padding-right: 10px;
    }
-   
+
    #f1logo{
     width: 200px;
     height:70px
-
-
    }
+
