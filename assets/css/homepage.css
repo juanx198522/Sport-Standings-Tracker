@@ -71,8 +71,10 @@ footer {
 
 .brand-logo{
     color: white;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
 }
 
 
@@ -97,3 +99,4 @@ button:hover{
     opacity: 100%;
     cursor: pointer;
 }
+
