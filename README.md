@@ -31,7 +31,7 @@ THAN I am opening a webpage with the "Formula 1" updated results.
 
 
 ## Deploying
-Before you running the App, you need to go to https://cors-anywhere.herokuapp.com/corsdemo and clik on "request temporary access".
+Before you running the App, you need to go to https://cors-anywhere.herokuapp.com/corsdemo and click on "request temporary access".
 https://juanx198522.github.io/Sport-Standings-Tracker/#
 
 
