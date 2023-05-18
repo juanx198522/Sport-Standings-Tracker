@@ -18,21 +18,22 @@ THAN I am opening a webpage with the "Formula 1" updated results.
 
 ## Technologies and tools used in this porject
 * HTML
+* JavaScript
 * CSS framework 
 * Claudfare
 * Server Side API
 
 
 ## Mock-Up
-![The "Sport Standing Traker dispaly two buttons to choose between Soccer or Motoring".](./assets/Images/Screenshot%20main.png)
+![The "Sport Standing Tracker dispaly two buttons to choose between Soccer or Motoring".](./assets/Images/Selected%20May%2017%202023%2021%3A13%3A22.png)
+ ![Sport Standing Tracker dispaly the Soccer webpage.](./assets/Images/Selected%20May%2017%202023%2021%3A17%3A11.png)
+ ![Sport Standing Tracker dispaly the Motoring webpage.](./assets/Images/Selected%20May%2017%202023%2021%3A13%3A47.png)
 
 
 ## Deploying
-Before you running the App, you need to go to https://cors-anywhere.herokuapp.com/corsdemo and clik on "request temporary access.
+Before you running the App, you need to go to https://cors-anywhere.herokuapp.com/corsdemo and clik on "request temporary access".
 https://juanx198522.github.io/Sport-Standings-Tracker/#
 
-## Technologies used
-HTML, CSS, JavaScript,
 
 ## Deployed Application
 https://juanx198522.github.io/Sport-Standings-Tracker/#
