@@ -25,7 +25,7 @@ THAN I am opening a webpage with the "Formula 1" updated results.
 
 
 ## Mock-Up
-![The "Sport Standing Tracker dispaly two buttons to choose between Soccer or Motoring".](./assets/Images/Selected%20May%2017%202023%2021%3A13%3A22.png)
+![The "Sport Standing Tracker dispaly two buttons to choose between Soccer or Motoring".](./assets/Images/Selected%20May%2017%202023%2021%3A52%3A19.png)
  ![Sport Standing Tracker dispaly the Soccer webpage.](./assets/Images/Selected%20May%2017%202023%2021%3A17%3A11.png)
  ![Sport Standing Tracker dispaly the Motoring webpage.](./assets/Images/Selected%20May%2017%202023%2021%3A13%3A47.png)
 
